@@ -1,0 +1,15 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+<div id="wrapper">
+    <div id="page">
+        <h1>{{ 'ERROR'|t }} {{ page.header.http_response_code }}</h1>
+        <p>
+            {{ page.content }}
+        </p>
+        <p>
+            <a href="{{ base_url == '' ? '/' : base_url }}" class="special">Back To Home Page</a>
+        </p>
+    </div>
+</div>
+{% endblock %}

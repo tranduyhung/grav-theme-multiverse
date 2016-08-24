@@ -1,0 +1,67 @@
+name: Multiverse
+description: "Grav theme based on Multiverse HTML theme of html5up.net."
+version: 1.0.0
+icon: photo
+author:
+  name: Hung Tran
+  email: hungtran@peaceofmindwebsite.com
+  url: http://www.peaceofmindwebsite.com
+homepage: https://github.com/tranduyhung/grav-theme-multiverse
+demo: http://www.peaceofmindwebsite.com/skeletons/multiverse
+keywords: theme, template, html5up, responsive, html5, photo, portifolio, image, gallery, photography
+bugs: https://github.com/tranduyhung/grav-theme-multiverse/issues
+license: MIT
+
+form:
+  validation: loose
+  fields:
+    favicon:
+        type: text
+        label: Favicon's Filename
+        placeholder: favicon.png
+        help: Name of favicon file in theme's images folder. favicon.png is used by default.
+    about_label:
+        type: text
+        label: About's Label
+        placeholder: Label for About link in footer
+        help: Label for About link in footer.
+    about_header:
+        type: text
+        label: About's Header
+        placeholder: Header for about section
+        help: Header for about section.
+    about_content:
+        type: textarea
+        label: About's Content
+        placeholder: Text or HTML code for about section
+        help: Text or HTML code for about section.
+    copyright:
+        type: textarea
+        label: Copyright Text
+        placeholder: Text or HTML code
+    contact_header:
+        type: text
+        label: Contact's Header
+        placeholder: Header for contact form
+        help: Header for contact form.
+    social_header:
+        type: text
+        label: Social Network's Header
+        placeholder: Header for social network section
+        help: Header for social network section.
+    social_networks:
+        type: list
+        label: Social Networks
+        help: Social networks.
+        fields:
+            .icon:
+                type: text
+                label: Font Awesome's Icon
+                placeholder: 'fa-facebook'
+            .label:
+                type: text
+                label: Label
+            .url:
+                type: text
+                label: Link
+                placeholder: 'https://www.facebook.com/your-page'

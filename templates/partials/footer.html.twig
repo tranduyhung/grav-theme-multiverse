@@ -1,0 +1,27 @@
+<footer id="footer" class="panel">
+    <div class="inner split">
+        <div>
+            <section>
+                <h2>{{ theme_config.about_header }}</h2>
+                <p>{{ theme_config.about_content }}</p>
+            </section>
+            <section>
+                <h2>{{ theme_config.social_header }}</h2>
+                <ul class="icons">
+                {% for social in theme_config.social_networks %}
+                    <li><a href="{{ social.url }}" class="icon {{ social.icon }}"><span class="label">{{ social.label }}</span></a></li>
+                {% endfor %}
+                </ul>
+            </section>
+            <p class="copyright">
+                {{ theme_config.copyright }}
+            </p>
+        </div>
+        <div>
+            <section>
+                <h2>{{ theme_config.contact_header }}</h2>
+                {% include "forms/form.html.twig" %}
+            </section>
+        </div>
+    </div>
+</footer>
