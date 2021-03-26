@@ -32,7 +32,7 @@
         {% do assets.add('theme://assets/css/ie9.css') %}
     {% endif %}
 
-    {{ assets.css() }}
+    {{ assets.css()|raw }}
 {% endblock %}
 
 {% block javascripts %}
@@ -50,6 +50,6 @@
     {% do assets.add('theme://assets/js/util.js') %}
     {% do assets.add('theme://assets/js/main.js') %}
 
-    {{ assets.js() }}
+    {{ assets.js()|raw }}
 {% endblock %}
 {% endblock head %}
