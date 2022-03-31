@@ -19,7 +19,7 @@
         </div>
         <div>
             <section>
-                <h2>{{ theme_config.contact_header }}</h2>
+                <h2>{{ theme_config.contact_header|raw }}</h2>
                 {% include "forms/form.html.twig" %}
             </section>
         </div>

@@ -11,8 +11,8 @@
             <a href="{{ page.media[image.thumbnail].url }}" class="image">
                 <img src="{{ page.media[image.thumbnail].url }}" alt="{{ image.title|escape }}" />
             </a>
-            <h2>{{ image.title }}</h2>
-            <p>{{ image.description }}</p>
+            <h2>{{ image.title|raw }}</h2>
+            <p>{{ image.description|raw }}</p>
         </article>
         {% endfor %}
         {% endif %}

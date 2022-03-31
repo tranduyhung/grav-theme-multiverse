@@ -22,7 +22,6 @@
 {% block stylesheets %}
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
     {% do assets.add('theme://assets/css/main.css', 101) %}
-    
 {% endblock %}
 
 {% block javascripts %}
@@ -41,5 +40,4 @@
     {% do assets.add('theme://assets/css/noscript.css', {group:'noscript'}) %}
     {{ assets.css('noscript')|raw }}
 </noscript>
-
 {% endblock head %}
