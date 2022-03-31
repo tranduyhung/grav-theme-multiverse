@@ -9,7 +9,7 @@
                 <h2>{{ theme_config.social_header|raw }}</h2>
                 <ul class="icons">
                 {% for social in theme_config.social_networks %}
-                    <li><a href="{{ social.url }}" class="icon {{ social.icon }}"><span class="label">{{ social.label }}</span></a></li>
+                    <li><a href="{{ social.url }}" class="icon brands {{ social.icon }}"><span class="label">{{ social.label }}</span></a></li>
                 {% endfor %}
                 </ul>
             </section>

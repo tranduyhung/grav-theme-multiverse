@@ -9,7 +9,7 @@
         {% for image in page.header.images %}
         <article class="thumb">
             <a href="{{ page.media[image.thumbnail].url }}" class="image">
-                <img src="{{ page.media[image.thumbnail].url }}" title="{{ image.title|escape }}" />
+                <img src="{{ page.media[image.thumbnail].url }}" alt="{{ image.title|escape }}" />
             </a>
             <h2>{{ image.title|raw }}</h2>
             <p>{{ image.description|raw }}</p>

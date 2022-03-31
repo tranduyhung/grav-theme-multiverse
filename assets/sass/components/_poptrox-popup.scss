@@ -138,7 +138,7 @@
 			}
 		}
 
-		@include breakpoint(medium) {
+		@include breakpoint('<=medium') {
 			.closer {
 				background-size: 3em;
 			}
@@ -149,7 +149,7 @@
 			}
 		}
 
-		@include breakpoint(small) {
+		@include breakpoint('<=small') {
 			&:before {
 				display: none;
 			}
