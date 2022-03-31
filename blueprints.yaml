@@ -1,13 +1,13 @@
 name: Multiverse
 description: "Grav theme based on Multiverse HTML theme of html5up.net."
-version: 1.0.1
+version: 2.0.0
 icon: photo
 author:
   name: Hung Tran
-  email: hungtran@peaceofmindwebsite.com
-  url: http://www.peaceofmindwebsite.com
+  email: flatfiledeveloper@gmail.com
+  url: https://flatfiledeveloper.com
 homepage: https://github.com/tranduyhung/grav-theme-multiverse
-demo: http://www.peaceofmindwebsite.com/skeletons/multiverse
+demo: https://grav-theme-multiverse.flatfiledeveloper.com/
 keywords: theme, template, html5up, responsive, html5, photo, portifolio, image, gallery, photography
 bugs: https://github.com/tranduyhung/grav-theme-multiverse/issues
 license: MIT
